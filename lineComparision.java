@@ -30,8 +30,11 @@ Scanner sc=new Scanner(System.in);
 	if( line1 == line2 ){
 	System.out.println(line1+" & "+line2+" are equal");
 	}
+	else if( line1 > line2 ){
+	System.out.println(line1 +" greater than "+line2);
+	}
 	else
-	System.out.println(line1 +" & "+line2+" are not equal");
+	System.out.println(line1+" smaller than "+line2);
 
 }
 }
